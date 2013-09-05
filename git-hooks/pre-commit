@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# Pre-commit hooks
+
+# Lint stuff before commiting
+SRC_PATTERN=".js"
+git diff --cached --name-only | if grep "$SRC_PATTERN"
+then
+    grunt jshint:common
+fi
