@@ -15,6 +15,18 @@ know how to use it.
 
 var aao = require("AAO-js");
 
+var driver = {
+	click: function(element) {
+		//...
+	}
+};
+
+/**
+ * Or it could be:
+ *
+ * var driver = casper;
+ */
+
 var anActor = aao.createActor(driver);
 
 aao.actorManager.addActor("Bob", anActor);
