@@ -1,6 +1,6 @@
 # AAO-js #
 
-The JavaScript implementation of the aao framework.
+The JavaScript implementation of the [aao framework](http://github.com/meza/AAO).
 
 ## Usage ##
 The lib is designed to be used with any driver you could imagine.
@@ -13,7 +13,7 @@ know how to use it.
 
 ```javascript
 
-var aao = require("AAO-js");
+var aao = require("aao-js");
 
 var driver = {
 	click: function(element) {
