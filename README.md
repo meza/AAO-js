@@ -1,8 +1,8 @@
-= AAO-js =
+# AAO-js #
 
 The JavaScript implementation of the aao framework.
 
-== Usage ==
+## Usage ##
 The lib is designed to be used with any driver you could imagine.
 Phantomjs, casperjs, or any custom implementations.
 Basically, the library does not care.
