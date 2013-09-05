@@ -2,6 +2,7 @@
 	"name": "AAO-js",
 	"description": "AAO-js",
 	"version": "0.0.1",
+	"author": "Marton Meszaros <meza@meza.hu>",
 	"main": "./lib/aao.js",
 	"devDependencies": {
 		"grunt": "*",
@@ -10,5 +11,27 @@
 	},
 	"scripts": {
 		"test": "grunt"
-	}
+	},
+	"contributors": {
+		"name": "Marton 'meza' Meszaros",
+		"email": "meza@meza.hu"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/meza/AAO-js.git"
+	},
+	"keywords": [
+		"testing",
+		"test automation",
+		"bdd"
+	],
+	"engines": {
+		"node": ">=0.8"
+	},
+	"licenses": [
+		{
+			"type": "CC BY-SA 3.0",
+			"url": "http://creativecommons.org/licenses/by-sa/3.0/"
+		}
+	]
 }
