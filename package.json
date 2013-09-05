@@ -4,8 +4,9 @@
 	"version": "0.0.1",
 	"main": "./lib/aao.js",
 	"devDependencies": {
-		"grunt": "~0.4.0",
-		"grunt-contrib-jshint": "~0.1.0"
+		"grunt": "*",
+		"grunt-cli": "*",
+		"grunt-contrib-jshint": "*"
 	},
 	"scripts": {
 		"test": "grunt"
