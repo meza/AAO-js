@@ -1,8 +1,8 @@
-= AAO-js =
+# AAO-js #
 
 The JavaScript implementation of the aao framework.
 
-== Usage ==
+## Usage ##
 The lib is designed to be used with any driver you could imagine.
 Phantomjs, casperjs, or any custom implementations.
 Basically, the library does not care.
@@ -14,6 +14,18 @@ know how to use it.
 ```javascript
 
 var aao = require("AAO-js");
+
+var driver = {
+	click: function(element) {
+		//...
+	}
+};
+
+/**
+ * Or it could be:
+ *
+ * var driver = casper;
+ */
 
 var anActor = aao.createActor(driver);
 
